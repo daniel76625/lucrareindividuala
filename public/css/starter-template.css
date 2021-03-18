@@ -1,0 +1,160 @@
+body {
+    padding-top: 40px;
+}
+
+.starter-template {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+table {
+    text-align: left;
+}
+
+div.thumbnail img {
+    max-height: 200px;
+}
+
+div.form-inline form {
+    display: inline;
+}
+
+div.labels {
+    position: absolute;
+}
+
+div.labels span.badge {
+    display: block;
+}
+
+span.badge.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+span.badge.badge-warning {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+span.badge.badge-danger {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+div.filters {
+    padding-bottom: 5px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #99979c;
+    background-color: #2a2730;
+}
+.slider{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+    height: auto;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #fff;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 400px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #fff;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #fff;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #fff;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #fff;
+  }
