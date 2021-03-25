@@ -14,7 +14,8 @@
     
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -36,7 +37,7 @@
         <nav class="navbar navbar-expand-md navbar-inverse shadow-sm" style="background:#222;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Midnight
+                    Steam
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -46,11 +47,11 @@
                     <!-- Left Side Of Navbar -->
                   
                     <ul class="navbar-nav mr-auto nav">
-                    <li><a href="{{route('index')}}">All products</a></li>
+                    <li><a href="{{route('index')}}">Toate Produsele</a></li>
                     <li class="padding"></li>
-                <li ><a href="{{route('categories')}}">Categories</a> </li>
+                <li ><a href="{{route('categories')}}">Categorii</a> </li>
                 <li class="padding"></li>
-                <li ><a href="{{route('basket-place')}}">Cart</a></li>
+                <li ><a href="{{route('basket-place')}}">Coș</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -59,13 +60,13 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Logare') }}</a>
                                 </li>
                             @endif
                             
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Înregistrare') }}</a>
                                 </li>
                             @endif
                         @else

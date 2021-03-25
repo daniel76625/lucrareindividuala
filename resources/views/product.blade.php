@@ -12,7 +12,7 @@
     <p></p>
 
             <form action="{{route('basket-add',$product)}}" method="POST">
-            <button type="submit" class="btn btn-success" role="button">Add to cart</button>
+            <button type="submit" class="btn btn-success" role="button">Add În coș</button>
 
             @csrf        </form>
         </div>

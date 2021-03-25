@@ -12,16 +12,16 @@
         <!--radio buttons end-->
         <!--slide images start-->
         <div class="slide first">
-          <img src="https://darwin.md/images/slider/2021/03/1400x520-ro.webp" alt="">
+          <img src="https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/40102679/851c838f0e38fe356180d8f97780b73d553f75a4.png"  alt="">
         </div>
         <div class="slide">
-          <img src="https://darwin.md/images/slider/2021/03/Casa-inteligenta_1400x520_Ro.webp" alt="">
+          <img src="https://compass-ssl.xbox.com/assets/6a/31/6a31393d-b0cc-4833-8e82-fd3a2c6b6e19.jpg?n=FH4_GLP-Page-Hero-1084_1920x1080_02.jpg" alt="">
         </div>
         <div class="slide">
-          <img src="https://darwin.md/images/slider/2021/03/samsung_galaxy_s20fe_1400x520-ro.webp" alt="">
+          <img src="https://wallpaperaccess.com/full/1409299.jpg" alt="">
         </div>
         <div class="slide">
-          <img src="https://darwin.md/images/slider/2021/02/All-Casti-TWS_1400x520_Ro.webp" alt="">
+          <img src="https://i.redd.it/1pj94zx19y901.png" alt="">
         </div>
         <!--slide images end-->
         <!--automatic navigation start-->
@@ -55,7 +55,7 @@
     }, 5000);
     </script>
     <div class="starter-template">
-                            <h1>All products</h1>
+                            <h1>Toate Produsele</h1>
     <div class="row">
     @foreach($products as $product)
     @include('card',compact('product'))

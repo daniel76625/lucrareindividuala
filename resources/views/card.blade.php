@@ -10,8 +10,8 @@
             <p>{{$product->price}} MDL</p>
             <p>
             <form action="{{route('basket-add',$product)}}" method="POST">
-               <button type="submit" class="btn btn-primary" role="button">To cart</button>      
-               <a href="{{route('product',[$product->category->code, $product->code])}}"    class="btn btn-default"   role="button">More</a>
+               <button type="submit" class="btn btn-primary" role="button">În coș</button>      
+               <a href="{{route('product',[$product->category->code, $product->code])}}"    class="btn btn-default"   role="button">Mai mult</a>
                 @csrf   
             </form>
             </p>
