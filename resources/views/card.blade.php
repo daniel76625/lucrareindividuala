@@ -7,7 +7,7 @@
         <img src="{{asset($product->image)}}" alt="iPhone X 64GB">
         <div class="caption">
             <h3>{{$product->name}}</h3>
-            <p>{{$product->price}} MDL</p>
+            <p>{{$product->price}} $</p>
             <p>
             <form action="{{route('basket-add',$product)}}" method="POST">
                <button type="submit" class="btn btn-primary" role="button">În coș</button>      

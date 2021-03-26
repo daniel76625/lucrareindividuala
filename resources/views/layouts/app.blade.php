@@ -34,10 +34,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-inverse shadow-sm" style="background:#222;">
+        <nav class="navbar navbar-expand-md navbar-inverse shadow-sm" style="height:70px;background-color: #171A21;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Steam
+                    <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam" width="150" border="0">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
                     <!-- Left Side Of Navbar -->
                   
                     <ul class="navbar-nav mr-auto nav">
-                    <li><a href="{{route('index')}}">Toate Produsele</a></li>
+                    <li><a href="{{route('index')}}">Toate Jocurile</a></li>
                     <li class="padding"></li>
                 <li ><a href="{{route('categories')}}">Categorii</a> </li>
                 <li class="padding"></li>

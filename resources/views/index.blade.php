@@ -55,7 +55,7 @@
     }, 5000);
     </script>
     <div class="starter-template">
-                            <h1>Toate Produsele</h1>
+                            <h1>Toate Jocurile</h1>
     <div class="row">
     @foreach($products as $product)
     @include('card',compact('product'))

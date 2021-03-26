@@ -18,12 +18,12 @@
 <body>
 <nav class="navbar-light navbar-inverse navbar-fixed-top" style="height:10%;background-color: #171A21;">
     <div class="container">
-        <div class="navbar-header" style="padding-top:5px;">
-            <a class="navbar-brand" href="{{route('index')}}" style="font-size:30px;">Steam</a>
+        <div class="navbar-header" >
+            <a class="navbar-brand" href="{{route('index')}}" style="font-size:30px;"> <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="Steam" width="150" border="0"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse" style="padding-top: 10px;">
             <ul class="nav navbar-nav">
-                <li><a href="{{route('index')}}">Toate Produsele</a></li>
+                <li><a href="{{route('index')}}">Toate Jocurile</a></li>
                 <li ><a href="{{route('categories')}}">Categoriile</a>
                 </li>
                 <li ><a href="{{route('basket-place')}}">Coș</a></li>

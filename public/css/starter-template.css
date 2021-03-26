@@ -85,7 +85,7 @@ footer {
   .navigation-manual{
     position: absolute;
     width: 800px;
-    margin-top: -100px;
+    margin-top: -50px;
     display: flex;
     justify-content: center;
   }
@@ -129,7 +129,7 @@ footer {
     display: flex;
     width: 800px;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 500px;
   }
   
   .navigation-auto div{

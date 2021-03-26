@@ -4,24 +4,24 @@
 
 @section('content')
 <div class="starter-template">
-                            <h1>Cart</h1>
-    <p>Checkout</p>
+                            <h1>Coș</h1>
+    <p>Achitare</p>
     <div class="panel">
         <table class="table table-striped">
             <thead>
             <tr>
-                <th>Name</th>
-                <th>Amount</th>
-                <th>Price</th>
-                <th>Cost</th>
+                <th>Nume</th>
+                <th>Cantitatea</th>
+                <th>Preț</th>
+                <th>Cost total</th>
             </tr>
             </thead>
             <tbody>
                             <tr>
                     <td>
                         <a href="">
-                            <img height="56px" src="https://eshop.moldcell.md/image/cache/catalog/Phones/Apple/iPhone-12-Pro-Max/Graphite/Apple-iPhone-12-Pro-Max-Graphite-1-600x1200.jpg">
-                            iPhone X 64GB
+                            <img height="56px" src="https://cdn.akamai.steamstatic.com/steam/apps/1293830/header.jpg?t=1615337540">
+                            Forza Horizon 4
                         </a>
                     </td>
                     <td><span class="badge">1</span>
@@ -37,18 +37,18 @@
                                 <input type="hidden" name="_token" value="3JWXfHFmUcw5CFHlWnVxeztELJcSr3RMr6ZMxnyh">                            </form>
                         </div>
                     </td>
-                    <td>71990 MDL</td>
-                    <td>71990 MDL</td>
+                    <td>29.99 $</td>
+                    <td>29.99 $</td>
                 </tr>
                         <tr>
                 <td colspan="3">Total:</td>
-                <td>71990 MDL</td>
+                <td>29.99 $</td>
             </tr>
             </tbody>
         </table>
         <br>
         <div class="btn-group pull-right" role="group">
-            <a type="button" class="btn btn-success" href="">Checkout</a>
+            <a type="button" class="btn btn-success" href="">Achitare</a>
         </div>
     </div>
     </div>
